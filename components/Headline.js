@@ -4,7 +4,7 @@ import { Footer } from '../components/Footer'
 import { Links } from '../components/Links'
 import styles from '../styles/Home.module.css'
 
-export default function Headline(props) {
+export function Headline(props) {
     console.log(props);
   return (
     <div>
