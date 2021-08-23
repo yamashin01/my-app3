@@ -1,8 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Footer } from '../components/Footer'
-import { Links } from '../components/Links'
-import styles from '../styles/Home.module.css'
+import styles from '../components/Headline.module.css'
 
 export function Headline(props) {
     console.log(props);
