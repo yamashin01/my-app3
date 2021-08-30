@@ -11,12 +11,12 @@ import styles from '../styles/Home.module.css'
 // }
 
 export default function Home() {
-  const foo = 1;
-  const handleClick = useCallback ((e) => {
-    console.log(e.target.href);
-    e.preventDefault();
-    alert(foo);
-  }, []);
+  // const foo = 1;
+  // const handleClick = useCallback ((e) => {
+  //   console.log(e.target.href);
+  //   e.preventDefault();
+  //   alert(foo);
+  // }, []);
   
   return (
     <div className={styles.container}>
@@ -28,7 +28,7 @@ export default function Home() {
       <Header />
       <a
        href="/about"
-       onClick = {handleClick}
+      //  onClick = {handleClick}
        >
         ボタン
       </a>
