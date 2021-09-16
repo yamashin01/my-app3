@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css'
 export default function About(props) {
   console.log(props);
   const { 
-    count, isShow, handleClick, handleDisplay, text, array, handleChange, handleAdd
+    isShow, handleClick, handleDisplay, text, array, handleChange, handleAdd, doubleCount
   } = props;
 
   return (
@@ -18,7 +18,7 @@ export default function About(props) {
       </Head>
 
       <Header />
-      {isShow ? <h1>{count}</h1> : null}
+      {isShow ? <h1>{doubleCount}</h1> : null}
       <button onClick= {handleDisplay}>
         {isShow ? "非表示" : "表示"}
       </button>
