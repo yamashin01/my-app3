@@ -22,7 +22,7 @@ const ITEMS = [
   },
 ]
 
-export default function Main(props) {
+export const Main = (props) => {
   const [items, setItems] = useState(ITEMS);
   const handleReduce = useCallback(() => {
     setItems((prevItems) => {
@@ -41,3 +41,5 @@ export default function Main(props) {
       </main>
   )
 }
+
+export default Main;
