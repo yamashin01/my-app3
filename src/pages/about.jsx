@@ -21,7 +21,7 @@ const About = (props) => {
       <button onClick = {props.handleClick}>ボタン</button>
       <input type="text" value={props.text} onChange={props.handleChange}/>
 
-      <button onClick = {props.handleAdd}>追加</button>
+      <button onClick = {props.handleAdd}>追加ボタン</button>
       <ul>
         {props.array.map((item) => {
           return <li key={item}>{item}</li>;
